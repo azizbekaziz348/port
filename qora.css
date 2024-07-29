@@ -1,0 +1,591 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header nav {
+    width: 80%;
+    margin: auto;
+
+}
+
+header nav .l {
+
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+
+}
+
+header nav .a {
+    width: 80%;
+
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 50px;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+
+}
+
+header .a a {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .a a span {
+    color: #B78601;
+}
+
+header nav .a ul li a {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: dashed;
+}
+
+header nav .a ul li a:active {
+    color: #B78601;
+}
+
+header nav .a ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* ===================================================================================== */
+#bx-menu {
+    display: none;
+    padding-top: 20px;
+    color: black;
+    font-size: 30px;
+}
+
+/* ======================================================================================== */
+header .kil {
+    width: 80%;
+    margin: auto;
+    padding-top: 250px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+
+}
+
+header .kil h1 {
+    color: black;
+
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+
+    letter-spacing: -1px;
+}
+
+header .kil p {
+    color: black;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    /* 120.69% */
+    letter-spacing: -1px;
+}
+
+header .kil b {
+    margin-top: 10px;
+    background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+
+header .kil i {
+    color: black;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px;
+
+    letter-spacing: -1px;
+}
+
+.birinchi {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 200px;
+
+
+}
+
+.birinchi h1 {
+    color: var(--Solid-Heading-Dark-mode, black);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+
+
+.ikkinchi {
+    padding-top: 150px;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+}
+
+.uchinchi {
+    width: 80%;
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.uchinchi h1 {
+    color: var(--Solid-Heading-Dark-mode, black);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+
+.men_loyihalar {
+    text-align: center;
+    max-width: 80%;
+    margin: 100px auto 0px;
+}
+
+.men_loyihalar h1 {
+    color: var(--Solid-Heading-Dark-mode, black);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 50px;
+}
+
+.men_loyihalar .loyihalarim {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.men_loyihalar .loyihalarim .loyiha {
+    width: 360px;
+    height: 400px;
+    border: 2px solid #A7A7A7;
+    border-radius: 20px;
+}
+
+.loyihalarim .loyiha:hover {
+    background: #063453;
+    /* background: #ffffff; */
+
+}
+
+.loyihalarim .loyiha img {
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 25px;
+    width: 300px;
+    height: 150px;
+}
+
+.loyihalarim .loyiha h3 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: Poppins;
+    color: black;
+    background: none;
+}
+
+.loyihalarim .loyiha p {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: Poppins;
+    color: black;
+    background: none;
+}
+
+.loyihalarim .loyiha button {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: #191919;
+    background: black;
+    font-size: 20px;
+    padding: 15px 35px;
+}
+
+.tort {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    padding-top: 200px;
+
+}
+
+.tort h1 {
+    color: var(--Solid-Heading-Dark-mode, black);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.js__loyiha {
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.jsh1 h1 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 25px;
+
+}
+
+#crud {
+    margin-top: 25px;
+    width: 600px;
+    border-radius: 25px;
+    height: 300px;
+
+}
+
+#tasodifan {
+    margin-top: 25px;
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+
+#sauntrek {
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+
+#countrec {
+
+    width: 600px;
+    height: 300px;
+    border-radius: 25px;
+
+}
+
+.js__loyiha {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 30px;
+}
+
+.besh {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+
+}
+
+.besh .a {
+    text-align: center;
+    max-width: 70%;
+    padding-top: 15px;
+    border-radius: 20px;
+    border: solid 2px black;
+
+}
+
+.besh h2 {
+    padding-top: 10px;
+    color: var(--Solid-Heading-Dark-mode, black);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+}
+
+.besh p {
+    margin-top: 50px;
+    color: var(--light-Content, #1a1717);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+
+@media screen and (max-width:900px) {
+    header nav .a {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    header nav {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .ikkinchi {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width:770px) {
+    header nav .a {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    header nav {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    header .kil {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .ikkinchi {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .men_loyihalar .loyihalarim {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .besh {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .js__loyiha {
+        display: grid;
+        grid-template-columns: auto;
+
+        #crud {
+            margin-top: 25px;
+            border-radius: 25px;
+            width: 400px;
+            height: 200px;
+
+        }
+
+        #tasodifan {
+            margin-top: 25px;
+            width: 400px;
+            height: 200px;
+            border-radius: 25px;
+        }
+
+
+        #sauntrek {
+            width: 400px;
+            height: 200px;
+            border-radius: 25px;
+
+        }
+
+        #countrec {
+
+            width: 400px;
+            height: 200px;
+            border-radius: 25px;
+
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+    header nav .l {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    header nav .a {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .activ {
+        display: none;
+
+    }
+
+    nav .a ul {
+        position: fixed;
+        top: 120px;
+        left: 0;
+        background-color: #3f6173;
+
+    }
+
+    nav .a a {
+        color: white;
+    }
+
+    #bx-menu {
+        display: block;
+        position: fixed;
+        top: 15px;
+        left: 200px;
+    }
+
+
+    header .kil {
+        display: grid;
+        grid-template-columns: auto;
+
+        p {
+            font-size: 40px;
+        }
+
+        b {
+
+            font-size: 40px;
+
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        i {
+            font-size: 40px;
+        }
+    }
+
+    .ikkinchi {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        p {
+            font-size: 40px;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+    }
+
+    .men_loyihalar .loyihalarim {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .besh {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .tort {
+        p {
+            font-size: 35px;
+        }
+
+        h1 {
+            font-size: 35px;
+        }
+    }
+
+    .jsh1 h1 {
+        color: #FFF;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 25px;
+
+    }
+
+    .js__loyiha {
+        display: grid;
+        grid-template-columns: auto;
+
+        #crud {
+            margin-top: 25px;
+            max-width: 300px;
+            border-radius: 25px;
+            height: 150px;
+
+        }
+
+        #tasodifan {
+            margin-top: 25px;
+            max-width: 300px;
+            height: 150px;
+            border-radius: 25px;
+        }
+
+
+        #sauntrek {
+            max-width: 300px;
+            height: 150px;
+            border-radius: 25px;
+
+        }
+
+        #countrec {
+
+            max-width: 300px;
+            height: 150px;
+            border-radius: 25px;
+
+        }
+
+    }
+
+}
